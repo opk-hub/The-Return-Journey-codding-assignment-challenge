@@ -64,13 +64,13 @@ class ColorGame extends Component {
 
     switch (difficulty) {
       case 'Easy':
-        winningScore = 4
+        winningScore = 10
         break
       case 'Medium':
-        winningScore = 5
+        winningScore = 15
         break
       case 'Hard':
-        winningScore = 7
+        winningScore = 25
         break
       default:
         winningScore = 10

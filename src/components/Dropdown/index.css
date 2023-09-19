@@ -30,9 +30,52 @@ select:focus {
   border-color: #007bff;
 }
 
-/* Responsive styles */
-@media (max-width: 768px) {
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
   .dropdown-container {
-    width: 80%;
+    padding: 5px;
+  }
+
+  label {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  select {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .dropdown-container {
+    padding: 10px;
+  }
+
+  label {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  select {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+/* Desktop Styles */
+@media screen and (min-width: 1025px) {
+  .dropdown-container {
+    padding: 20px;
+  }
+
+  label {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  select {
+    padding: 12px;
+    font-size: 18px;
   }
 }

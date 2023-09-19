@@ -41,3 +41,54 @@ button:hover {
   padding: 10px;
   font-weight: 500;
 }
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .winning-container {
+    margin: 20px;
+  }
+
+  .win-des {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+
+  .winning-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+}
+/* Tablet Styles */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .winning-container {
+    margin: 30px;
+  }
+
+  .win-des {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .winning-button {
+    padding: 10px 18px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
+/* Desktop Styles */
+@media screen and (min-width: 1025px) {
+  .winning-container {
+    margin: 50px;
+  }
+
+  .win-des {
+    font-size: 20px;
+    margin: 15px 0;
+  }
+
+  .winning-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    margin-top: 25px;
+  }
+}

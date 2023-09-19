@@ -58,20 +58,6 @@
   background-color: #0056b3;
 }
 
-/* Responsive Styles */
-@media screen and (max-width: 768px) {
-  .color-box {
-    width: 80px;
-    height: 80px;
-    font-size: 20px;
-  }
-
-  .button {
-    padding: 8px 16px;
-    font-size: 14px;
-  }
-}
-
 .dot {
   font-size: 0px;
 }
@@ -89,4 +75,88 @@
   font-size: 20px;
   color: antiquewhite;
   margin-left: 60px;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .color-game {
+    margin-top: 10px;
+  }
+
+  .color-game-container {
+    min-height: 100vh;
+  }
+
+  .color-box {
+    width: 120px;
+    height: 120px;
+    font-size: 16px;
+    margin: 10px 10px;
+  }
+
+  .button {
+    padding: 8px 16px;
+    font-size: 14px;
+    margin: 10px 10px;
+  }
+
+  .score {
+    margin-left: 10px;
+  }
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .color-game {
+    margin-top: 50px;
+  }
+
+  .color-game-container {
+    min-height: 100vh;
+  }
+
+  .color-box {
+    width: 160px;
+    height: 160px;
+    font-size: 20px;
+    margin: 15px 15px;
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 15px 15px;
+  }
+
+  .score {
+    margin-left: 30px;
+  }
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1025px) {
+  .color-game {
+    margin-top: 100px;
+  }
+
+  .color-game-container {
+    min-height: 100vh;
+  }
+
+  .color-box {
+    width: 200px;
+    height: 200px;
+    font-size: 24px;
+    margin: 20px 100px;
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 20px 117px;
+  }
+
+  .score {
+    margin-left: 60px;
+  }
 }
