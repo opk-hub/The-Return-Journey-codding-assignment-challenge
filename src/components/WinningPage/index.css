@@ -1,0 +1,43 @@
+.winning-hed {
+  color: #28a745;
+}
+
+.winning-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, yellow, green);
+  text-align: center;
+  margin: 50px;
+}
+
+.win-des {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #fff;
+}
+
+.winning-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.win-sec {
+  color: azure;
+}
+.second {
+  font-size: 20px;
+  color: maroon;
+  padding: 10px;
+  font-weight: 500;
+}
